@@ -13,13 +13,70 @@
         <img src="./images/logo.jpg" alt="CI">
         <h1>hyeonggeun site</h1>
     </header>
-    <nav>글로벌 내비게이션</nav>
+    <nav>
+        <!-- 점 -->
+        <!-- ul>li*4{메인메뉴$$} -->
+        <ul>
+            <li>소개</li>
+            <li>쇼핑</li>
+            <li>패키지</li>
+            <li>커뮤니티</li>
+        </ul>
+        <!-- 숫자 -->
+        <!-- ol>li*3{연습$} -->
+        <ol type="i">
+            <li>연습1</li>
+            <li>연습2</li>
+            <li>연습3</li>
+        </ol>
+    </nav>
     <section>
-        <article>이미지</article>
-        <article>동영상</article>
+        <article>
+            <div class="bigdata">
+                <img src="./images/bigdata.jpg" alt="메인이미지" width="50%" height="">
+            </div>
+            <div class="action">
+                <h2>나의 대외활동 이력</h2>
+                <!-- table>tr>th*3^tr*3>td*3 -->
+                <table border="5">
+                    <tr>
+                        <th>기간</th>
+                        <th>대외활동</th>
+                        <th>주최</th>
+                    </tr>
+                    <tr>
+                        <td>2021.3</td>
+                        <td>마케팅경진대회</td>
+                        <td>정보학회</td>
+                    </tr>
+                    <tr>
+                        <td>2022.5</td>
+                        <td>GA 교육프로그램</td>
+                        <td>동의대학교</td>
+                    </tr>
+                    <tr>
+                        <td>2022.8</td>
+                        <td>온라인 쇼핑몰 기획 공모전</td>
+                        <td>중소기업청</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <br><hr><br>
+        <article>
+            <div class="media">
+                <h2>좋아하는 음악</h2>
+                <audio src="./media/music01.mp3" controls></audio>
+                <h2>곰 환경을 살리자</h2>
+                <video src="./media/movie.mp4" width="50%" controls></video>
+                <h2>손흥민 활약상</h2>
+                <iframe width="670" height="335" src="https://www.youtube.com/embed/W281Xn10AEE" title="《 수리남 》 소름돋았던 '변기태' 시점에서 다시 보기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
         <article>갤러리</article>
         <aside>즐겨찾기와 로그인</aside>
     </section>
+
     <footer>저작권과 주소</footer>
 </body>
 </html>
