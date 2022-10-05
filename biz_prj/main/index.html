@@ -3,6 +3,7 @@
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NJ964BTDQ"></script>
+    <script src="https://kit.fontawesome.com/a5c2906144.js" crossorigin="anonymous"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -15,10 +16,36 @@
     <meta name="keyword" content="GA, 블로그 IT 관련 블로그, e비즈니스">
     <meta name="author" content="joo hyeong geun">
     <title>Welcome to hyeonggeun</title>
+    <style>
+        header, footer
+        {
+            height: 100px;
+        }
+        footer
+        {
+            background-color: gray;
+        }
+        nav
+        {
+            height: 50px;
+        }
+        section
+        {
+            display: flex;
+        }
+        .content
+        {
+            flex: 4;
+        }
+        aside
+        {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
     <header id ="home">
-        <img src="./images/logo.jpg" alt="CI">
+        <i class="fa-solid fa-burger"></i>
         <h1>hyeonggeun site</h1>
     </header>
     <nav>
@@ -39,53 +66,55 @@
         </ol>
     </nav>
     <section>
-        <article>
-            <div class="bigdata">
-                <img src="./images/bigdata.jpg" alt="메인이미지" width="50%" height="">
-            </div>
-            <div class="action">
-                <h2>나의 대외활동 이력</h2>
-                <!-- table>tr>th*3^tr*3>td*3 -->
-                <table border="5">
-                    <tr>
-                        <th>기간</th>
-                        <th>대외활동</th>
-                        <th>주최</th>
-                    </tr>
-                    <tr>
-                        <td>2021.3</td>
-                        <td>마케팅경진대회</td>
-                        <td>정보학회</td>
-                    </tr>
-                    <tr>
-                        <td>2022.5</td>
-                        <td>GA 교육프로그램</td>
-                        <td>동의대학교</td>
-                    </tr>
-                    <tr>
-                        <td>2022.8</td>
-                        <td>온라인 쇼핑몰 기획 공모전</td>
-                        <td>중소기업청</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
-        <br><hr><br>
-        <article>
-            <div class="media">
-                <h2>좋아하는 음악</h2>
-                <audio src="./media/music01.mp3" controls></audio>
-                <h2>곰 환경을 살리자</h2>
-                <video src="./media/movie.mp4" width="50%" controls></video>
-                <h2>손흥민 활약상</h2>
-                <iframe frameborder = "0" width="670" height="335" src="https://www.youtube.com/embed/W281Xn10AEE" title="《 수리남 》 소름돋았던 '변기태' 시점에서 다시 보기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </article>
-        <article>
-            <div class="gallery">
-                <iframe src="./gallery.html" frameborder="0" width="70%" height="220px"></iframe>
-            </div>
-        </article>
+        <div class="content">
+            <article>
+                <div class="bigdata">
+                    <img src="./images/bigdata.jpg" alt="메인이미지" width="50%" height="">
+                </div>
+                <div class="action">
+                    <h2>나의 대외활동 이력</h2>
+                    <!-- table>tr>th*3^tr*3>td*3 -->
+                    <table border="5">
+                        <tr>
+                            <th>기간</th>
+                            <th>대외활동</th>
+                            <th>주최</th>
+                        </tr>
+                        <tr>
+                            <td>2021.3</td>
+                            <td>마케팅경진대회</td>
+                            <td>정보학회</td>
+                        </tr>
+                        <tr>
+                            <td>2022.5</td>
+                            <td>GA 교육프로그램</td>
+                            <td>동의대학교</td>
+                        </tr>
+                        <tr>
+                            <td>2022.8</td>
+                            <td>온라인 쇼핑몰 기획 공모전</td>
+                            <td>중소기업청</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <br><hr><br>
+            <article>
+                <div class="media">
+                    <h2>좋아하는 음악</h2>
+                    <audio src="./media/music01.mp3" controls></audio>
+                    <h2>곰 환경을 살리자</h2>
+                    <video src="./media/movie.mp4" width="50%" controls></video>
+                    <h2>손흥민 활약상</h2>
+                    <iframe frameborder = "0" width="670" height="335" src="https://www.youtube.com/embed/W281Xn10AEE" title="《 수리남 》 소름돋았던 '변기태' 시점에서 다시 보기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+            <article>
+                <div class="gallery">
+                    <iframe src="./gallery.html" frameborder="0" width="70%" height="220px"></iframe>
+                </div>
+            </article>
+        </div>
         <aside>
             <div class="link">
                 <a href="http://mis.deu.ac.kr" target="_blank">경영정보학과 사이트</a><br>
@@ -103,7 +132,14 @@
                 </form>
             </div>
         </aside>
+        
     </section>
-    <footer>저작권과 주소</footer>
+    <footer>
+        저작권과 주소
+        <div class="sns">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
 </body>
 </html>
