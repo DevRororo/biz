@@ -15,70 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="GA, 블로그 IT 관련 블로그, e비즈니스">
     <meta name="author" content="joo hyeong geun">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/mystyle.css" type="text/css">
     <title>Welcome to hyeonggeun</title>
-    <style>
-        *
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 150%; 
-        }
-        body
-        {
-            margin-top: 20px;
-            margin: 0 auto;
-            max-width: 980px;
-        }
-        header, footer
-        {
-            height: 100px;
-        }
-        header h1 
-        {
-            display: inline;
-        }
-        footer
-        {
-            background-color: gray;
-        }
-        nav
-        {
-            height: 50px;
-        }
-        section
-        {
-            display: flex;
-        }
-        .content
-        {
-            flex: 4;
-        }
-        aside
-        {
-            flex: 1;
-        }
-        ul
-        {
-            list-style-type: none;
-        }
-        a
-        {
-            text-decoration: none;
-        }
-        nav ul li
-        {
-            display: inline;
-            padding: 15px 30px;
-            letter-spacing: 5px;
-        }
-        nav ul li:hover
-        {
-            background-color: lawngreen;
-        }
-        nav ul
-        {
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <header id ="home">
@@ -106,12 +45,12 @@
         <div class="content">
             <article>
                 <div class="bigdata">
-                    <img src="./images/bigdata.jpg" alt="메인이미지" width="50%" height="">
+                    <img class="w3-circle" src="./images/bigdata.jpg" alt="메인이미지" width="50%" height="">
                 </div>
                 <div class="action">
                     <h2>나의 대외활동 이력</h2>
                     <!-- table>tr>th*3^tr*3>td*3 -->
-                    <table border="5">
+                    <table class="w3-table-all w3-hoverable">
                         <tr>
                             <th>기간</th>
                             <th>대외활동</th>
@@ -161,22 +100,22 @@
             <div class="login">
                 <h2>로그인</h2>
                 <form action="#" method="post">
-                    회원ID : <input type="text" name="id"><br>
-                    비밀번호 : <input type="password" name="pw"><br>
-                    남자 : <input type="radio" name="gender" value="1"> 여자 : <input type="radio" name="gender" value="2"><br>
-                    <input type="submit" value="로그인"><br>
-                    <input type="reset" value="재설정">
+                    회원ID : <input type="text" name="id" class="w3-input"><br>
+                    비밀번호 : <input type="password" name="pw" class="w3-input"><br>
+                    남자 : <input type="radio" name="gender" value="1" class="w3-radio"> 여자 : <input type="radio" name="gender" value="2" class="w3-radio"><br>
+                    <input type="submit" value="로그인" class="w3-button w3-blue"><br>
+                    <input type="reset" value="재설정" class="w3-button w3-blue">
                 </form>
             </div>
         </aside>
-        
     </section>
     <footer>
         저작권과 주소
         <div class="sns">
-            <i class="fa-brands fa-facebook"></i>
+            <a href="http://www.naver.com"><i class="fa-brands fa-facebook"></i></a>
             <i class="fa-brands fa-twitter"></i>
         </div>
     </footer>
 </body>
+
 </html>
