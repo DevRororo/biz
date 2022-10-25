@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NJ964BTDQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9NJ964BTDQ');
+    </script>
+    <title>Web shop Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css"  />
+
+    <style type="text/css">
+        a {text-decoration: none;}
+        li {list-style: none;}
+        aside#left {
+        width: 175px;
+        margin-top: 20px;
+        float: left;
+        }
+        aside#right {
+        padding: 0px;
+        margin-left: 10px;
+        width: 200px;
+        float: left;
+       }
+       #main {
+        overflow: hidden;
+        float: left;
+        width: 500px;
+       }
+       footer{
+            width: 100%;
+            height: 50px;
+            clear: both;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <i class="material-icons">menu</i>
+            <a href="index.html">DongEui Shop</a></h1>
+    </header>
+    <nav>
+        <ul  class= "w3-bar w3-indigo">
+            <li><a href="index.html" class="w3-bar-item w3-button">Home</a></li>
+            <li><a href="about.html" class="w3-bar-item w3-button" target="iframe1" >About Us</a></li>
+            <li><a href="#" class="w3-bar-item w3-button">My Account</a></li>
+            <li><a href="#" class="w3-bar-item w3-button" >Contacts</a></li>
+            <div class="w3-dropdown-hover">
+            <li><button class="w3-button">News</button></li>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="#" class="w3-bar-item w3-button">Informations</a>
+                  <a href="#" class="w3-bar-item w3-button">Events</a>
+                  <a href="#" class="w3-bar-item w3-button">Favortes</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <aside id="left">
+        <h4>카테고리</h4>
+        <ul>
+            <li><a target="iframe1" href="computer.html">컴퓨터</a></li>
+            <li><a target="iframe1" href="#">의류</a></li>
+            <li><a target="iframe1" href="#">음악</a></li>
+            <li><a target="iframe1" href="#">영화</a></li>
+            <li><a target="iframe1" href="#">스포츠/레저</a></li>
+            <li><a target="iframe1" href="#">가구/인테리어</a></li>
+            <li><a target="iframe1" href="#">식품</a></li>
+        </ul>
+    </aside>
+    <section id="main">
+        <article id="article1">
+            <iframe name="iframe1" src="computer.html" width="480" height="300" seamless></iframe>
+        </article>
+    </section>
+    <aside id="right">
+        <div id="shopcart">
+            <h4>Shopping Cart</h4>
+            현재 쇼핑카트에 물품이 없습니다.<br />
+            <a href="cart.html" target="iframe1"><button> 쇼핑카트 보기 </button></a> 
+        </div>
+        <div id="login">
+            <h4>Log In</h4>
+            <form action="#">
+                아이디               
+                <input type="text" /><br />
+                패스워드               
+                <input type="password" /><br />
+                <input type="submit" value="로그인" />
+                <input type="reset" value="초기화" /><br />
+                <a href="register.html" target="_blank" id="register">회원가입</a>
+                <a href="#" id="forgot">비밀번호분실</a>
+            </form>
+        </div>
+    </aside>
+  <footer  class="w3-dark-grey" class="w3-bottom" style="height:150px;">
+  <div class="w3-row"> <!-- grid 를 이용하여 작성하였음  -->
+      <div class="w3-col s4  w3-container" >
+          <h5> Contact Us</h5>
+          <ul>
+            <li>Phone: 010 5280 ****</li>
+            <li>Email: <a href="mailto:sense64@gmail.com" title="Email Us">sense64@gmail.com</a></li>
+            <li><a href="http://168.115.128.42:8008">http://www.donga.ac.kr/sense64</a></li>
+          </ul>
+          
+      </div>
+      <div class="w3-col s4  w3-container" >
+          <h5> Follow Us</h5>
+          <a href="https://www.facebook.com/swhwang64"><i class="fa fa-facebook" style="font-size:30px;color:white"></i></a>
+          <a href="https://twitter.com/sense64"><i class="fa fa-twitter" style="font-size:30px;color:white"></i></a>
+          <a href="#"><i class="fa fa-instagram" style="font-size:30px;color:white"></i></a>
+          <br /><br/>
+          Copyright (c) 2017 SeonwonHwang <br/>
+      </div>
+      <div class="w3-col s4 w3-container" >
+          <h5> About Us</h5>
+            My Site is optimized for learning, testing, and training. It's something special for your.
+            <a href="#" class="btn btn-block btn-base btn-icon fa-check"><span>Try it now</span></a>
+          
+      </div>
+   </div>
+   
+   </footer> 
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
+
+#eventTitle{
+  background-color:#0C2134;
+  color:white;
+  text-align: center;
+}
+.img{
+   position: relative;
+   background-image: url('img/participate.jpg');background-repeat: no-repeat;
+   height: 70vh;
+   background-size: cover;
+}
+.img .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#prodcut{
+ background-color:#181715;
+ text-align: center;
+}
+#share{
+ background-color:#181715;
+ color:white;
+ text-align: center;
+}
+#preview{
+ background-color:#181715;
+ color:white;
+ text-align: center;
+}
+/* 리뷰 */
+#reviewTitle{
+  background-color:#181715;
+  color:white;
+  text-align: center;
+}
+#reviewForm{
+  background-color:#181715;
+  color:white;
+}
+#preview2{
+ background-color:#181715;
+ color:white;
+ text-align: center;
+}
+#share2{
+ background-color:#181715;
+ color:white;
+ text-align: center;
+}

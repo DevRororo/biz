@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NJ964BTDQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9NJ964BTDQ');
+    </script>
+    <title>Welcome to Seongwon's Site</title>
+    <script src="https://kit.fontawesome.com/775c063c3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      body{
+        margin: auto;
+        max-width: 980px;
+      }
+      section{
+        
+        display: flex;
+        margin-top: 20px;
+      }
+      .content{
+        flex:4;
+      }
+      aside{
+        flex:1;
+      }
+    .product1, .product2, .product3{
+            width: 200px;
+            height: 350px;
+            float: left;
+            border: 1px dotted red;
+    
+    </style>
+</head>
+<body>
+  <!--  header+nav+section>article*3+aside^footer -->
+  <header id="home"> 
+    <i class="fa-sharp fa-solid fa-bars"></i>
+    <a href="../index.html"> <h1> SeongWon Site</h1></a>
+  </header>
+  <nav>
+     <!--ul>li*4>a{메인메뉴$$}--> 
+     <ul>
+      <li><a href="../index.html">소개</a></li>
+      <li><a href="./computer.html">쇼핑</a></li>
+      <li><a href="../event/event.html">이벤트</a></li>
+      <li><a href="#">커뮤니티</a></li>
+     </ul>
+
+  </nav>
+  <section class="shop">
+    <div class="product1">
+        <img src="images/computer.png" width="100" height="100" />
+        <p>
+            심플하고 슬림한 본체에 코어i5 3470과지포스 GT630을 장착
+            CPU: 인텔 코어i5 3470 (아이비브릿지 3세대) 사용<br />
+            가격: 1,200,000원
+        </p>
+        <input type="button" value="쇼핑카트에 추가하기" class="cart"/>
+    </div>
+    <div class="product2">
+        <img src="images/notebook.png" width="100" height="100" />
+        <p>
+            Full-HD로 선명한 화면, ISP패널로
+  시야각도 좋다!  CPU: 인텔 코어i7 3630 QM, CPU: 인텔 코어i7 3630 QM
+            <br />
+            가격: 1,200,000원
+        </p>
+        <input type="button" value="쇼핑카트에 추가하기" />
+    </div>
+    <div class="product3">
+        <img src="images/tshirt.png" width="100" height="100" />
+        <p>
+            Full-HD로 선명한 화면, ISP패널로
+  시야각도 좋다!  CPU: 인텔 코어i7 3630 QM, CPU: 인텔 코어i7 3630 QM
+            <br />
+            가격: 1,200,000원
+        </p>
+        <input type="button" value="쇼핑카트에 추가하기" />
+    </div>
+</section>
+<footer> 
+    <p class="w3-left-align">Copyright 2022. SeongWon All rights reserved</p>
+    <h5>Contact </h5>
+    <div class="sns">
+      <a href="http://web.donga.ac.kr/sense64">
+      <i class="fa-brands fa-facebook"></i></a>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </footer>
+</body>
+</html>
