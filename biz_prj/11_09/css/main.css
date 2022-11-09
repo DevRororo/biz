@@ -1,0 +1,564 @@
+*
+{
+    font-family: Pretendard;
+}
+header {
+    position: fixed;
+    left : 0;
+    right : 0;
+    top : 0;
+    z-index: 100;
+    height: 100px;
+}
+.navbar1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+
+}
+.navbar_content a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.navbar_logo img
+{
+    width: 200px;
+}
+.navbar_content
+{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+}
+.navbar_content li
+{
+    padding: 8px 12px;
+
+}
+.to_center
+{
+    text-align: center;
+}
+.index_1
+{
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.index_2
+{
+    font-size: 6em;
+    font-weight: 700;
+    letter-spacing: -4px;
+}
+.index_4
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.index_5
+{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+.index_6
+{
+    width: 1000px;
+    margin: auto;
+}
+.index_7
+{
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+.index_8
+{
+    font-size: 1.5em;
+    margin-left: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #999;
+}
+.index_9
+{
+    white-space: break-spaces;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+.index_10
+{
+    margin-top: 15px;
+}
+.index_11
+{
+    margin-top: 15px;
+}
+.index_12
+{
+    text-decoration: none;
+    color: black;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+.index_13
+{
+    margin-left: 50px;
+}
+.index_14
+{
+    text-decoration: none;
+    color: black;
+}
+.index_15
+{
+    font-size: 1.4em;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+/* 동아리소개페이지 1페이지 */
+#hero {
+    width: 100%;
+    height: 80vh;
+  }
+
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #0f394c;
+    text-transform: uppercase;
+  }
+  
+  #hero h2 {
+    color: #1c698c;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+  }
+  
+  #hero .btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 25px;
+    color: #fff;
+    background: #49b5e7;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #76c7ed;
+  }
+  
+  @media (max-width: 991px) {
+    #hero {
+      height: 100vh;
+      text-align: center;
+    }
+  
+    #hero .hero-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    #hero .hero-img img {
+      width: 80%;
+    }
+  }
+
+/* 동아리소개페이지 2페이지 */
+.index_16{
+    letter-spacing: -2px;
+}
+.index_17
+{
+    width: 1200px;
+    margin: 0 auto;  
+}
+.index_18
+{
+    margin-bottom: 0px;
+}
+.index_19
+{
+    margin-top: 70px;
+}
+.index_20
+{
+    margin-bottom: 0px;
+}
+
+/* 3페이지 포트폴리오 */
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 10px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #49b5e7;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-info::before {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-top: 3px solid #bdc6ca;
+  border-left: 3px solid #bdc6ca;
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+.portfolio .portfolio-wrap .portfolio-info::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  border-bottom: 3px solid #bdc6ca;
+  border-right: 3px solid #bdc6ca;
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #0f394c;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: #0f394c;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #49b5e7;
+  margin: 0 2px;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #8dd0f0;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info::before {
+  top: 15px;
+  left: 15px;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info::after {
+  bottom: 15px;
+  right: 15px;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #49b5e7;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #49b5e7;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(15, 57, 76, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+/* 뉴스 */
+.index_21
+{
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: white;
+}
+.index_22
+{
+    white-space: break-spaces;
+    font-size: 1.25em;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: white;
+}
+.index_23
+{
+    color: white;
+}
+
+/* 팀 페이지 */
+.index_24
+{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: black;
+}
+.index_25
+{
+  width: 980px;
+  height: 242px;
+  background-color: #171717;
+  margin: auto;
+  
+}
+.index_26
+{
+  border-radius: 100px 100px 100px 100px;
+  width: 160px;
+  height: 160px;
+  margin-top: 19px;
+  margin-left: 19px;
+}
+.index_27
+{
+  font-size: 33px;
+  color: white;
+  letter-spacing: 0em;
+  font-weight: 700;
+  position: relative;
+  left: 23px;
+  top: 25px;
+}
+.index_28
+{
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #999;
+  position: relative;
+  left: 120px;
+  top: -30px;
+}
+.index_29
+{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #7FCCFF;
+  position: relative;
+  left: 25px;
+  top: -45px;
+}
+.index_30
+{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #CCCCCC;
+  position: relative;
+  left: 25px;
+  top: -55px;
+}
+.index_31
+{
+  font-size: 20px;
+  position: relative;
+  left: -277px;
+  top: -65px;
+  color: white;
+}
+.index_32
+{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: white;
+  position: relative;
+  left: 235px;
+  top: -108px;
+}
+.index_33
+{
+  position: relative;
+  left: -430px;
+  top: -95px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+.index_34
+{
+  color: white;
+  text-decoration: none;
+}
+.index_35
+{
+  position: relative;
+  left: -414px;
+  top: -95px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
