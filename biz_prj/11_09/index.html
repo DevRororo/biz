@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/a5c2906144.js" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src = "./js/jquery.fullPage.js"></script>
+    
+   <link rel = "stylesheet" href = "./css/jquery.fullPage.css">
+   <link rel = "stylesheet" href = "./css/main.css">
+   <link href='./fonts/pretendard.css' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>빅시그마 취업동아리</title>
+</head>
+<body>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <header>
+      <nav class="navbar1">
+         <div class="navbar_logo">
+            <img src="./img/logo2_black.png" alt="" onclick="onLogoClick()">
+         </div>
+         <ul class="navbar_content">
+            <li><a href="./index.html">메인</a></li>
+            <li><a href="./bigsigma.html">동아리 소개</a></li>
+            <li><a href="./team.html">부원 소개</a></li>
+            <li><a href="./ebusiness.html">학과 소개</a></li>
+         </ul>
+      </nav>
+   </header>
+    <main id = "fullpage">
+      <div id = "app">
+         <div v-show="mainload==='false'">
+            <div class="to_center">
+            </div>
+         </div>
+         <div v-show="mainload==='true'">
+            <section class = "section">
+               <div class="to_center">
+                  <span class="index_1">동의대학교 e비즈니스학과 취업동아리</span><br>
+                  <span class="index_2 animate__animated animate__pulse">ΣBIGSIGMA</span>
+                  <br><br>
+                  <a href="#section2" class="index_14">
+                     <i class="fa-solid fa-chevron-down animate__animated animate__fadeInDown animate__repeat-2"></i>
+                     <span class="index_4 animate__animated animate__fadeInDown">&nbsp&nbsp빅시그마 동아리 알아보기</span>
+                  </a>
+               </div>
+            </section>
+            <section class = "section">
+               <div class="index_6" data-aos="fade-up" data-aos-duration="500">
+                  <div>
+                     <span class="index_7">빅시그마 취업동아리</span>
+                     <span class="index_8">BIGSIGMA</span>
+                  </div>
+                  <div class="index_10">
+                     <span class="index_9">동의대학교 e비즈니스학과 취업동아리.
+빅시그마 취업동아리는 개발에 관심있는 사람들과 함께 
+다양한 분야(웹, 앱, 데이터 분석 등)에서 실력을 쌓고 결과를 만들어내는것을 목표로 합니다.</span>
+                  </div>
+                  <div class="index_11">
+                     <a href="./bigsigma.html" class="index_12">동아리 상세 페이지&nbsp&nbsp<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                  </div>
+                  <img class="index_5" src="./img/404.png" alt="">
+               </div>
+            </section>
+            <section class = "section">
+               <div class="index_6" data-aos="fade-up" data-aos-duration="500">
+                  <div>
+                     <span class="index_7">동의대학교 e비즈니스학전공</span>
+                     <span class="index_8">DEU e-business major</span>
+                  </div>
+                  <div class="index_10">
+                     <span class="index_15">"IT기술과 경영학의 만남 e-business 전문가 양성"</span><br>
+                     <span class="index_9">21세기 고도화된 정보화 시대의 주도적 학문 분야로, 미래사회에서 기업 및 개인의 활동방식을 변화시켜 국가와 기업의 생존을 위한 새로운 비즈니스의 프론티어로서 중추적인 역할을 수행하고, e비즈니스 기회를 창출할 수 있는 고도의 능력을 배양하여, 가상공간에서 비즈니스에 필요한 정보기술을 갖춘 전문인 양성을 교육목표로 합니다. 또한 미래의 경영자가 될 학생들에게 효율적으로 기업을 운영하고 의사결정자에게 적절한 정보를 적시에 제공하여 줄 수 있도록 정보기술과 정보시스템 관련 제반 지식을 중점 교육합니다.</span>
+                  </div>
+                  <div class="index_11">
+                     <a href="" class="index_12">학과소개 페이지&nbsp&nbsp<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                     <a href="https://ebiz.deu.ac.kr/ebiz/index.do" target="_blank" class="index_12 index_13" >공식 학과 홈페이지&nbsp&nbsp<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                  </div>
+                  <img class="index_5" src="./img/ebiz.png" alt="">
+               </div>
+            </section>
+         </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyDjRlJbV0PmCnTSRP-QtmJhD5qZlMXPdUo",
+        authDomain: "bigsigma-8070d.firebaseapp.com",
+        projectId: "bigsigma-8070d",
+        storageBucket: "bigsigma-8070d.appspot.com",
+        messagingSenderId: "668295722378",
+        appId: "1:668295722378:web:e027e8f806067e7eb1c473",
+        measurementId: "G-SQPPYWJGMQ"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script>
+      AOS.init();
+    </script>
+    <script src = "./js/index.js"></script>
+</body>
+</html>
