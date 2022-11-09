@@ -71,7 +71,7 @@ var vm = new Vue
 
 function onLogoClick()
 {
-	location.href ='https://deubigsigma.com/';
+	location.href ='https://devrororo.github.io/biz/biz_prj/11_09/index.html';
 }
 
 function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
