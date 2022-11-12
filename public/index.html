@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="image/pabi.png">
+    <!-- 에니메이션 -->
+    <link rel="stylesheet" href="css/animate.css">	
+    <!-- 에니메이션 CSS -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css">  
+    <!-- 폰트 Css -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <link href='./fonts/pretendard.css' rel='stylesheet' type='text/css'>
+    <!-- 오울 Css -->
+    <link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+    <!-- Magnific 팝업 Css -->
+    <link href="css/magnific-popup.css" type="text/css" rel="stylesheet">
+    <!-- 부트스트랩 Css --> 
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <!-- 가격필터 Css --> 
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet">
+    <!-- 스크롤바 Css -->
+    <link href="css/mCustomScrollbar.min.css" type="text/css" rel="stylesheet">
+    <!-- 선택2 Css --> 
+    <link href="css/select2.min.css" type="text/css" rel="stylesheet">
+    <!-- 메인 css --> 
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet">
+
+    <title>King's Man</title>
+
+</head>
+<body>
+<!-- 뷰 -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<!-- 헤더  -->
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="header_list text-md-left text-center">
+                        <li><a href="tel:+ 00 123 456 789"><i class="fa fa-phone"></i> 고객센터 123-4567-890</a></li>
+                        <li><a href="mailto:info@gmail.com"><i class="fa fa-envelope-o"></i>kingsman@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="header_list text-md-right text-center">
+                        <li><a href="#" class="open-popup-link">로그인</a></li>
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="my-account.html">내 계정</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-mdl">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="hm-inner d-sm-flex align-items-center justify-content-between">
+                    	<div class="header-logo">
+                        	<a href="index.html"><img src="image/logo_white_00000.png" alt="logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-btm">
+   		<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<nav class="navbar navbar-expand-lg navbar-light">
+                      	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                	<a class="nav-link" href="index.html">홈</a>
+                                </li>
+                                <li class="dropdown">
+                                	<a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">남성 의류<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                    <div class="sub-menu dropdown-menu">
+                                    	<ul class="all-menu">
+                                            <li><a href="manshop.html">정장</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                	<a class="nav-link dropdown-toggler" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">여성 의류<i class="fa fa-angle-down"></i><i class="fa fa-angle-right"></i></a>
+                                    <div class="sub-menu dropdown-menu">
+                                    	<ul class="all-menu">
+                                            <li><a href="womanshop.html">양복</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                	<a class="nav-link" href="contact.html">고객센터</a>
+                                </li>
+                                <li class="nav-item">
+                                	<a class="nav-link" href="about-us.html">소개</a>
+                                </li>
+                            </ul>
+                      	</div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- 헤더 끝 -->
+
+<!-- 슬라이더 -->
+<section class="slider pt-0">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    	<div class="carousel-inner">
+            <div class="carousel-item active slider-area background_bg" data-img-src="image/MainSlide1.png">
+                <div class="banner_slide_content left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-7 col-9">
+                                <div class="slider-caption">
+                                    <h1 class="animation" data-animation="fadeInDown" data-animation-delay="0.2s" style="color:white;">환영합니다</h1>
+                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s" style="color:white;">King's Man(킹스맨)은 남여 양복전문 쇼핑몰입니다.</p>
+                                    <a href="manshop.html" class="btn btn-primary animation" data-animation="fadeInUp" data-animation-delay="1s">둘러보기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slider-area background_bg" data-img-src="image/MainSlide1.png">
+                <div class="banner_slide_content left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-7 col-9">
+                                <div class="slider-caption">
+                                    <h1 class="animation" data-animation="fadeInDown" data-animation-delay="0.2s" style="color:white;">여름 특별 세일!</h1>
+                                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.6s" style="color:white;">4+ 품목 / 최대 80%</p>
+                                    <a href="manshop.html" class="btn btn-primary animation" data-animation="fadeInUp" data-animation-delay="1s">바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+        </ol>
+    </div>
+</section>
+<!-- 슬라이더 끝 -->
+
+<!-- 배너  -->
+<section class="offer-banners">
+	<div class="container">
+    	<div class="row justify-content-center">
+        	<div class="col-sm-4 text-center">
+            	<a href="manshop.html" class="offer-banner"><img src="image/manbanner.png" alt="offer-banner"></a>
+            </div>
+            <div class="col-sm-4 text-center">
+            	<a href="womanshop.html" class="offer-banner"><img src="image/womanbanner.png" alt="offer-banner"></a>
+            </div>
+            <div class="col-sm-4 text-center">
+            	<a href="#" class="offer-banner"><img src="image/acbanner.png" alt="offer-banner"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 배너 끝 -->
+
+<!-- 신규기능 배너 -->
+<section class="popular-products">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-12">
+            	<div class="title text-center">
+                	<h4>신규기능! 입어보기 가능한 상품</h4>
+                </div>
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-12">
+				<div class="products-slider4 same-nav owl-carousel owl-theme" data-margin="30" data-dots="false" data-nav="true">
+					<div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man1.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 001</a>
+                                <p class="cart-price" style="color: black;">78000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man2.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 002</a>
+                                <p class="cart-price" style="color: black;">81000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man3.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 003</a>
+                                <p class="cart-price" style="color: black;">80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man4.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="image/man5.png" class="cart-name">정장 004</a>
+                                <p class="cart-price" style="color: black;">80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man6.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price" style="color: black;">80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 신규기능 배너 끝 -->
+
+<!-- 배너 -->
+<section class="banner-section">
+	<div class="container">
+    	<div class="row no-gutters justify-content-center">
+        	<div class="col-md-6">
+                <div class="banner-box">
+                    <a href="product001.html" class=""><img src="image/UnderBanner1.png" alt="fashion-banner"></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-box">
+                    <a href="manshop.html" class=""><img src="image/UnderBanner2.png" alt="fashion-banner"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 배너 끝 -->
+
+<!-- 인기상품 배너 -->
+<section class="best-saller">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-12">
+            	<div class="title text-center">
+                	<h4>인기있는 상품 </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-12">
+            	<div class="products-slider4 same-nav owl-carousel owl-theme" data-margin="30" data-dots="false" data-nav="true">
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man1.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man1.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man2.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man3.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man4.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man5.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<div class="product-box common-cart-box">
+                        	<div class="product-img common-cart-img">
+                            	<img src="image/man6.png" alt="product-img">
+                                <div class="hover-option">
+                                	<div class="add-cart-btn">
+                                    	<a href="product001.html" class="btn btn-primary">구매하기</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info common-cart-info text-center">
+                            	<a href="product-detail.html" class="cart-name">정장 004</a>
+                                <p class="cart-price"><del>90000원</del>80000원</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 인기상품 배너 끝 -->
+
+
+
+<!-- 맨밑 -->
+<footer>
+    <div class="footer-btm">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-6">
+                	<div class="copyright">
+                    	<p>Copyright © 2021 King's Man(프로젝트 6조) All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- 맨밑 끝 -->
+
+
+<a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/popper.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7TypZFTl4Z3gVtikNOdGSfNTpnmq-ahQ"  type="text/javascript"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/countdown.min.js" type="text/jscript"></script>
+<script src="js/jquery.countup.js" type="text/javascript"></script>
+<script src="js/waypoint.js" type="text/javascript"></script>
+<script src="js/select2.min.js" type="text/javascript"></script>
+<script src="js/jquery-price-slider.js" type="text/javascript"></script>
+<script src='js/jquery.elevatezoom.js' type="text/javascript"></script>
+<script src='js/imagesloaded.pkgd.min.js' type="text/javascript"></script>
+<script src='js/isotope.min.js' type="text/javascript"></script>
+<script src='js/jquery.fitvids.js' type="text/javascript"></script>
+<script src="js/mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script> 
+
+
+
+<!-- 밑에서부터는 firebase 관련 코드  -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+
+
+<!-- firebase 설정 시작 -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCHzsNtp4I7MIP3op_A-trY9AYIBi8M52Q",
+    authDomain: "kingsman6team.firebaseapp.com",
+    projectId: "kingsman6team",
+    storageBucket: "kingsman6team.appspot.com",
+    messagingSenderId: "296450316005",
+    appId: "1:296450316005:web:0d11a15d8a93504fa5660c",
+    measurementId: "G-NEQTQ6ZMGR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<!-- firebase 설정 끝-->
+
+</body>
+</html>	
