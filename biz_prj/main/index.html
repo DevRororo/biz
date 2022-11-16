@@ -25,6 +25,29 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./css/mystyle.css" type="text/css">
     <title>Welcome to hyeonggeun</title>
+    <script>
+        function validateForm()
+        {
+            let x = document.forms["userForm"]["id"].value;
+            let y = document.forms["userForm"]["pw"].value;
+            if(x == "")
+            {
+                alert("회원id를 입력");
+                userForm.id.focus();
+                return false;
+            }
+            else if(y=="")
+            {
+                alert("회원pw를 입력");
+                userForm.pw.focus();
+                return false;
+            }
+            else
+            {
+                alert("회원가입이 완료되었습니다!");
+            }
+        }
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -110,7 +133,7 @@
             </div>
             <div class="login">
                 <h2>로그인</h2>
-                <form action="#" method="post">
+                <form action="#" method="post" name="userForm" onsubmit="validateForm()">
                     회원ID : <input type="text" name="id" class="w3-input"><br>
                     비밀번호 : <input type="password" name="pw" class="w3-input"><br>
                     남자 : <input type="radio" name="gender" value="1" class="w3-radio"> 여자 : <input type="radio" name="gender" value="2" class="w3-radio"><br>
